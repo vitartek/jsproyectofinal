@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js" defer></script>
+</head>
+<body>
+    <div id="image" onload="initializeGallery">
+        Hover over an image below to display here.
+    </div>
+
+    <img class="preview" alt="Logo de bootstrap" src="images/bootstrap.jpg"
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Logo de css" src="images/css.png"
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Logo de figma" src="images/figma.png"
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Logo de github" src="images/github.jpg"
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Logo de html5" src="images/html-5.png"
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Logo de illustrator" src="images/ilustrador.png"
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+</body>
+</html>
